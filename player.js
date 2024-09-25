@@ -63,7 +63,7 @@ const data = {
           trackId: "2",
           artistsName: "Vanila Ice",
           trackTitle: "Ice Ice Baby",
-          isHot: true,
+          isHot: false,
           trackFileUrl: "audio/Vanila%20Ice%20-%20Ice%20Baby.mp3",
           trackCoverImgUrl: "img/cardImage/trackList/track6.jpeg",
         },
