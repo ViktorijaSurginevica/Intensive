@@ -20,7 +20,7 @@ const data = {
           trackId: "2",
           artistsName: "50 cent",
           trackTitle: "In da Club",
-          isHot: true,
+          isHot: false,
           trackFileUrl: "audio/50cent%20-%20In%20da%20club.mp3",
           trackCoverImgUrl: "img/cardImage/trackList/track2.jpeg",
         },
