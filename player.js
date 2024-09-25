@@ -17,7 +17,7 @@ const data = {
           trackCoverImgUrl: "img/cardImage/trackList/track1.jpeg",
         },
         {
-          trackId: "1",
+          trackId: "2",
           artistsName: "50 cent",
           trackTitle: "In da Club",
           isHot: true,
@@ -25,6 +25,7 @@ const data = {
           trackCoverImgUrl: "img/cardImage/trackList/track2.jpeg",
         },
         {
+          trackId: "3",
           artistsName: "DMX",
           trackTitle: "X Gon' Give It To Ya",
           isHot: true,
@@ -32,6 +33,7 @@ const data = {
           trackCoverImgUrl: "img/cardImage/trackList/track3.jpeg",
         },
         {
+          trackId: "4",
           artistsName: "Eminem feat 50 Cent, Cashis, Lloyd Banks",
           trackTitle: "You Don't",
           isHot: true,
