@@ -53,11 +53,11 @@ const data = {
       tracks: [
         {
           trackId: "1",
-          artistsName: "Eminem",
-          trackTitle: "Rap God",
+          artistsName: "Public Enemy",
+          trackTitle: "Fight the Power",
           isHot: true,
-          trackFileUrl: "audio/Eminem - Rap God.mp3",
-          trackCoverImgUrl: "img/cardImage/trackList/track1.jpeg",
+          trackFileUrl: "audio/Public%20Enemy%20-%20Fight%20The%20Power.mp3",
+          trackCoverImgUrl: "img/cardImage/trackList/track5.jpeg",
         },
         {
           trackId: "2",
