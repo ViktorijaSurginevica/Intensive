@@ -61,11 +61,11 @@ const data = {
         },
         {
           trackId: "2",
-          artistsName: "50 cent",
-          trackTitle: "In da Club",
+          artistsName: "Vanila Ice",
+          trackTitle: "Ice Ice Baby",
           isHot: true,
-          trackFileUrl: "audio/50cent%20-%20In%20da%20club.mp3",
-          trackCoverImgUrl: "img/cardImage/trackList/track2.jpeg",
+          trackFileUrl: "audio/Vanila%20Ice%20-%20Ice%20Baby.mp3",
+          trackCoverImgUrl: "img/cardImage/trackList/track6.jpeg",
         },
         {
           trackId: "3",
