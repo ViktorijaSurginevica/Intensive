@@ -105,11 +105,11 @@ function App() {
 
 {
   /*<header>
-<div class="header-container">
-  <img src="img/logo/logo.svg" alt="logo" />
-  <div class="logo-name">InPlayer</div>
-</div>
-</header>*/
+    <div class="header-container">
+      <img src="img/logo/logo.svg" alt="logo" />
+      <div class="logo-name">InPlayer</div>
+    </div>
+    </header>*/
 }
 
 function Header() {
@@ -125,7 +125,7 @@ function Header() {
   logoName.innerText = "InPlayer";
   logoName.classList.add("logo-name");
 
-  headerContainer.append(img, logo);
+  headerContainer.append(img, logoName);
   header.append(headerContainer);
 
   return header;
