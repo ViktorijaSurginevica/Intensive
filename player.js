@@ -175,6 +175,14 @@ function AddPlaylistPanel() {
 
 //==============================================================
 
+function Playlists(){
+  const container = document.createElement("div");
+  container.classList.add("add-playlist-panel");
+}
+
+
+//==============================================================
+
 const root = document.getElementById("root");
 root.append(
   App() // => container
