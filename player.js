@@ -88,3 +88,14 @@ const data = {
     },
   ],
 };
+
+function App() {
+  const container = document.createElement("div");
+  container.classList.add("App");
+}
+
+const root = document.getElementById("root");
+root
+  .append
+  // application
+  ();
