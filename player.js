@@ -95,7 +95,7 @@ function App() {
 
   container.append(
     Header()
-    //Main()//
+    //Main()
   );
 
   return container;
@@ -121,14 +121,49 @@ function Header() {
   const img = document.createElement("img");
   img.src = "img/logo/logo.svg";
 
-  const logoName = document.createElement("div");
-  logoName.innerText = "InPlayer";
-  logoName.classList.add("logo-name");
+  const logo = document.createElement("div");
+  logo.innerText = "InPlayer";
+  logo.classList.add("logo-name");
 
-  headerContainer.append(img, logoName);
+  headerContainer.append(img, logo);
   header.append(headerContainer);
 
   return header;
+}
+
+//==============================================================
+{
+  /*<main></main>*/
+}
+
+function Main() {
+  const container = document.createElement("main");
+
+  container(AddPlaylistPanel(), Playlists());
+
+  return container;
+}
+
+//==============================================================
+
+{
+  /*<div class="add-playlist-panel">
+            <h1 class="title">My playlists</h1>
+            <button class="button">Add Playlist</button>
+          </div>*/
+}
+
+function AddPlaylistPanel() {
+  const container = document.createElement("div");
+  container.classList.add("add-playlist-panel");
+
+  const appHeader = document.createElement("h1");
+  appHeader.innerText = "My playlist";
+  appHeader.classList.add("title");
+
+  const addButton = document.createElement("button");
+
+  return container;
 }
 
 //==============================================================
