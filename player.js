@@ -93,7 +93,10 @@ function App() {
   const container = document.createElement("div");
   container.classList.add("App");
 
-  container.append(Header(), Main());
+  container.append(
+    Header()
+    //Main()//
+  );
 
   return container;
 }
@@ -107,6 +110,25 @@ function App() {
   <div class="logo-name">InPlayer</div>
 </div>
 </header>*/
+}
+
+function Header() {
+  const header = document.createElement("header");
+
+  const headerContainer = document.createElement("div");
+  headerContainer.classList.add("header-container");
+
+  const img = document.createElement("img");
+  img.src = "img/logo/logo.svg";
+
+  const logoName = document.createElement("div");
+  logoName.innerText = "InPlayer";
+  logoName.classList.add("logo-name");
+
+  headerContainer.append(img, logo);
+  header.append(headerContainer);
+
+  return header;
 }
 
 //==============================================================
