@@ -92,10 +92,26 @@ const data = {
 function App() {
   const container = document.createElement("div");
   container.classList.add("App");
+
+  container.append(Header(), Main());
+
+  return container;
 }
 
+//==============================================================
+
+{
+  /*<header>
+<div class="header-container">
+  <img src="img/logo/logo.svg" alt="logo" />
+  <div class="logo-name">InPlayer</div>
+</div>
+</header>*/
+}
+
+//==============================================================
+
 const root = document.getElementById("root");
-root
-  .append
-  // application
-  ();
+root.append(
+  App() // => container
+);
