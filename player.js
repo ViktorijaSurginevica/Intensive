@@ -95,7 +95,7 @@ function App() {
 
   container.append(
     Header()
-    //Main()
+    Main()
   );
 
   return container;
@@ -139,7 +139,7 @@ function Header() {
 function Main() {
   const container = document.createElement("main");
 
-  container(AddPlaylistPanel(), Playlists());
+  container.append(AddPlaylistPanel(), Playlists());
 
   return container;
 }
@@ -162,6 +162,13 @@ function AddPlaylistPanel() {
   appHeader.classList.add("title");
 
   const addButton = document.createElement("button");
+  addButton.innerText = "Add playlist"
+  addButton.classList.add("button")
+
+  container.append(
+    appHeader,
+    addButton
+  )
 
   return container;
 }
